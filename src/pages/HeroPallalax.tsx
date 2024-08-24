@@ -1,5 +1,4 @@
 'use client';
-import React from 'react';
 import { BrowserRouter as Router } from 'react-router-dom';
 import { HeroParallax } from '../components/ui/aceternity/hero-parallax';
 
