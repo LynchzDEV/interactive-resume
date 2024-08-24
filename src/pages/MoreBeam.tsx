@@ -1,5 +1,5 @@
 'use client';
-import { BackgroundBeams } from '../components/ui/aceternity/background-beams';
+import { BackgroundBeams } from '@/components/ui/aceternity/background-beams';
 
 export function BackgroundBeamsDemo() {
   return (

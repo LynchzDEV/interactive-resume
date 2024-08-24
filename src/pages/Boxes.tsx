@@ -1,6 +1,6 @@
 'use client';
-import { Boxes } from '../components/ui/aceternity/background-boxes';
-import { cn } from '../utils/libs/cn';
+import { Boxes } from '@/components/ui/aceternity/background-boxes';
+import { cn } from '@/utils/libs/cn';
 
 export function BackgroundBoxesDemo() {
   return (

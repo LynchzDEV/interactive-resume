@@ -1,7 +1,7 @@
 'use client';
 
 import { motion } from 'framer-motion';
-import { AuroraBackground } from '../components/ui/aceternity/aurora-background';
+import { AuroraBackground } from '@/components/ui/aceternity/aurora-background';
 import { TypeAnimation } from 'react-type-animation';
 
 const TypeWritingTech = () => {

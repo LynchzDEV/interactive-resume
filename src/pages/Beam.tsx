@@ -1,4 +1,4 @@
-import { BackgroundBeamsWithCollision } from '../components/ui/aceternity/background-beams-with-collision';
+import { BackgroundBeamsWithCollision } from '@/components/ui/aceternity/background-beams-with-collision';
 
 export function BackgroundBeamsWithCollisionDemo() {
   return (

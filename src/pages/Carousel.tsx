@@ -2,7 +2,7 @@
 import {
   Carousel,
   Card,
-} from '../components/ui/aceternity/apple-cards-carousel';
+} from '@/components/ui/aceternity/apple-cards-carousel';
 
 export function AppleCardsCarouselDemo() {
   const cards = data.map((card, index) => (

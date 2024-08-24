@@ -1,4 +1,4 @@
-import { Timeline } from '../components/ui/aceternity/timeline';
+import { Timeline } from '@/components/ui/aceternity/timeline';
 
 export function TimelineDemo() {
   const data = [
