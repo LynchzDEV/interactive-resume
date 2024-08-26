@@ -15,7 +15,7 @@ export function AppleCardsCarouselDemo() {
 
   return (
     <div className="w-full h-full py-20 bg-[#18181B]">
-      <h2 className="max-w-7xl pl-4 mx-auto text-xl md:text-5xl font-bold text-neutral-800 dark:text-neutral-200 font-sans">
+      <h2 className="max-w-7xl pl-4 mx-auto text-xl md:text-5xl font-bold text-neutral-200 font-sans">
         MY PROJECTS.
       </h2>
       <Carousel items={cards} />
@@ -30,10 +30,10 @@ const DummyContent = () => {
         return (
           <div
             key={'dummy-content' + index}
-            className="bg-[#F5F5F7] dark:bg-neutral-800 p-8 md:p-14 rounded-3xl mb-4"
+            className="bg-neutral-800 p-8 md:p-14 rounded-3xl mb-4"
           >
-            <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto">
-              <span className="font-bold text-neutral-700 dark:text-neutral-200">
+            <p className="text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto">
+              <span className="font-bold  text-neutral-200">
                 The first rule of Apple club is that you boast about Apple club.
               </span>{' '}
               Keep a journal, quickly jot down a grocery list, and take amazing
@@ -57,9 +57,9 @@ const DummyContent = () => {
 
 const AmongDucks = () => {
   return (
-    <div className="bg-[#F5F5F7] dark:bg-neutral-800 p-8 md:p-14 rounded-3xl mb-4">
-      <p className="text-neutral-600 dark:text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto">
-        <span className="font-bold text-neutral-700 dark:text-neutral-200">
+    <div className="bg-neutral-800 p-8 md:p-14 rounded-3xl mb-4">
+      <p className="text-neutral-400 text-base md:text-2xl font-sans max-w-3xl mx-auto">
+        <span className="font-bold  text-neutral-200">
           I am the creative force behind "Among Duck",
         </span>{' '}
         a 2D platformer web game. As the designer, project owner, and developer,
@@ -77,8 +77,8 @@ const AmongDucks = () => {
           className=" max-w-fit md:w-3/4 md:h-3/4"
         >
           <img
-            src="https://cdn.discordapp.com/attachments/978280751516778506/1276816388207542323/Screenshot_2567-08-24_at_15.12.15.png?ex=66cae76d&is=66c995ed&hm=dc3f866162e80ba3853bea125aa92e4f5481e18cee9201f89503ad9f2baf28de&"
-            alt="Macbook mockup from Aceternity UI"
+            src="https://zd4cdq.bl.files.1drv.com/y4muqGiZi436kAlSLoQtMzeI2BqvaUAWCUGRyQxdXpgqU662rXJ8ujZwcy9BYjGoR4Yc1uhEX7y2NpiyizZBGACZtKhAR4vhZAqduAafcjUPodF9kelqK3R5oa6xlua3n51k8ERdYZwIMKQx1aQr13kjhVpC4r_ms0ByrsnBoFE1cjjrgRoTA5h8Dzdlp6P79MZttV-zxja4sHMmk20YdT67GZqe-BA2Bn2-s5oRPXAEG0"
+            alt="Among Duck Figma Design"
             height="500"
             width="500"
             className=" h-full w-full object-contain"
@@ -89,10 +89,10 @@ const AmongDucks = () => {
           </p>
         </a>
         <div className=" flex flex-col items-center justify-center content-center">
-          <span className="font-bold text-neutral-700 dark:text-neutral-200 mx-auto md:text-xl">
+          <span className="font-bold  text-neutral-200 mx-auto md:text-xl">
             Links:
           </span>{' '}
-          <ul className="text-neutral-400 dark:text-neutral-300 text-base md:text-xl font-sans text-center">
+          <ul className="text-neutral-400 text-base md:text-xl font-sans text-center">
             <a
               href="https://among-duck-hellogoose.vercel.app/"
               target="_blank"
@@ -128,7 +128,7 @@ const data = [
   {
     category: 'SIT Hello World’s 2D platformer game',
     title: 'Among Ducks',
-    src: 'https://cdn.discordapp.com/attachments/978280751516778506/1276807606387609693/Screenshot_2567-08-24_at_14.37.28.png?ex=66cadf3f&is=66c98dbf&hm=3b84cdb3a2597061ca5f8bd81fc7e4f800179abc27177edee2926f781f8dd167&',
+    src: 'https://vj4cdq.bl.files.1drv.com/y4m9MHlHai2ON0H-DTVilWRU0kB_m2FfT75ZK92FjBpVhM8exLGLNtChvCUsQdODdK29IlUCWVe63_EBEq210zNswPWU4SRmxc8tCFgKdTwy2YgDKTw3fSNTe_ROaAXSO6xdNZZE7N7Q0Qs-jAalVJvnC2h9MeXvLQMhtasRCSneWOt0h0ZiDy3j9bDmvqOc2elA-wlFnHTfsVMpLTJVxomDXvMFJnLkcNlENkH8vfmziw',
     // ****************************** GIF IS WORKING!!!!!!! ****************************** //
     // src: 'https://i.pinimg.com/originals/3a/7b/da/3a7bda163b42122cec8497e44ce3f9dd.gif',
     // ****************************** GIF IS WORKING!!!!!!! ****************************** //
@@ -137,7 +137,7 @@ const data = [
   {
     category: 'SIT’s junior project',
     title: 'Kanban Board',
-    src: 'https://cdn.discordapp.com/attachments/978280751516778506/1276812405132759090/Screenshot_2567-08-24_at_14.55.34.png?ex=66cae3b7&is=66c99237&hm=ba38edb8a4cd07005ac2de5d692612db6ed6c8078068439f510c2d428def8a36&',
+    src: 'https://vz4cdq.bl.files.1drv.com/y4mSCtvuuhpyiPumCdelMlunOAwDMzaC0o6M9qWJz7KDpQIfNeQxoBVsEWEp2h9wjKKLDeaFogXHrJ_mFPq2DYQDNpdrpVUuH6_7KYvtOOGlGpfdEThEeWLPeqBO7ulLS3OCOR0bCC73wDWG59gmVkDGbtcyWZJAjaVshhY10LkL1zkbLV6IuhttWF5ceh2FJ2xQuSFXbcEV0Hd3rTSwrRKJbVdTei5yTZULrSOHtbNIG8',
     content: <DummyContent />,
   },
   {
