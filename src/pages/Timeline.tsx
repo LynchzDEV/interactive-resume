@@ -1,5 +1,27 @@
 import { Timeline } from '@/components/ui/aceternity/timeline';
 
+// * Startup
+import startup1 from '@/assets/images/Startup/Startup1.jpg';
+import startup2 from '@/assets/images/Startup/Startup2.jpg';
+import startup3 from '@/assets/images/Startup/Startup3.jpg';
+import startup4 from '@/assets/images/Startup/Startup4.jpg';
+
+// * Starter Pack
+import sp1 from '@/assets/images/StarterPack/sp1.jpg';
+import sp2 from '@/assets/images/StarterPack/sp2.jpg';
+import sp3 from '@/assets/images/StarterPack/sp3.jpg';
+import sp4 from '@/assets/images/StarterPack/sp4.jpg';
+
+// * Code of Conduct
+import ca1 from '@/assets/images/Aquatia/ca1.jpeg';
+import ca2 from '@/assets/images/Aquatia/ca2.jpg';
+
+// * GameDev
+import hw1 from '@/assets/images/HelloWorld/hw1.jpg';
+import hw2 from '@/assets/images/HelloWorld/hw2.jpg';
+import hw3 from '@/assets/images/HelloWorld/hw3.jpg';
+import hw4 from '@/assets/images/HelloWorld/hw4.jpg';
+
 export function TimelineDemo() {
   const data = [
     {
@@ -32,28 +54,28 @@ export function TimelineDemo() {
           </ul>
           <div className="grid grid-cols-2 gap-4">
             <img
-              src="https://scontent-bkk1-2.xx.fbcdn.net/v/t39.30808-6/321485725_663383515478971_3199661418573578976_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=127cfc&_nc_ohc=1VNg5Hp-iIUQ7kNvgFUVtTh&_nc_ht=scontent-bkk1-2.xx&oh=00_AYASyUFQrXLV6k4ZXuxewLjLlOF0GYgw9447i6W_nGmSsA&oe=66CF8AC4"
+              src={startup1}
               alt="startup template"
               width={500}
               height={500}
               className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
             />
             <img
-              src="https://scontent-bkk1-2.xx.fbcdn.net/v/t39.30808-6/307949034_130511959731672_3157385698267999307_n.jpg?stp=cp6_dst-jpg&_nc_cat=108&ccb=1-7&_nc_sid=127cfc&_nc_ohc=fY0JLNXPC44Q7kNvgFG7_q2&_nc_ht=scontent-bkk1-2.xx&oh=00_AYAShxPGTcfO4XCaGM4E01MKCtImvWmhudvKG179QzEtug&oe=66CFB02E"
+              src={startup2}
               alt="startup template"
               width={500}
               height={500}
               className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
             />
             <img
-              src="https://scontent-bkk1-2.xx.fbcdn.net/v/t39.30808-6/321947644_507020988161803_5098293072520587809_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=833d8c&_nc_ohc=0wGyS1LlyHAQ7kNvgHoCJsg&_nc_ht=scontent-bkk1-2.xx&oh=00_AYA74wZs46ijLcn56dqoalDrQUWKfajqF5MT1R6I3aiHRg&oe=66CFA99C"
+              src={startup3}
               alt="startup template"
               width={500}
               height={500}
               className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
             />
             <img
-              src="https://scontent-bkk1-2.xx.fbcdn.net/v/t39.30808-6/321929078_491461846429866_6010666399230478726_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=833d8c&_nc_ohc=XymZuAOc14gQ7kNvgFQfckK&_nc_ht=scontent-bkk1-2.xx&oh=00_AYBz4EVXVWx6N_iTel24hHX4WB9CZsHm0lS4koXbVptUZQ&oe=66CFB6CD"
+              src={startup4}
               alt="startup template"
               width={500}
               height={500}
@@ -88,28 +110,28 @@ export function TimelineDemo() {
           </ul>
           <div className="grid grid-cols-2 gap-4">
             <img
-              src="https://vz4cdq.bl.files.1drv.com/y4mUqUz-EU3lZm2nMXJsW1CbF11-G3_Uxsxvfd0TeSDdez5IBIi96aXLHfMVFXER0I1whFs66dJHKBLqq45EPQ_viXF0a7TyJjMEZQzdJNTYugrBdr6q6h2lgoVpKc5g7e2H5GxrepermUeZ5oF1hlYfPlIrfjqZmOwWI68k2pOQKkoaQQlQcLJ5EXqcU-aJ2Q3CEs1-v0bpVUGjs9Ladvs2AoYPlhXgGfpyggLN2cfDcE"
+              src={sp1}
               alt="Starter1"
               width={500}
               height={500}
               className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
             />
             <img
-              src="https://vz4cdq.bl.files.1drv.com/y4mGgNlFMn0H7BLIkc5BUn5bZ9uC0etRlfNRr4UfjFJtQ-qqy76rprlcIKt6-sFn4Sw8bEhCU3RXfsLIP4oZHDsY7N55cNDbwotHKQ4Jbvc_eNcRti3xfSjjhgWMf1V7ExMavGlXR9SMgjrX2ENR3-fXwmphcD1boSrN5hsnHZk8SYzv-fo-hpZMiHFHW-Zs__wfMtHHP-KAAyQy6FvxaX15qQENaeBc_a-MGl69gcyOnA"
+              src={sp2}
               alt="Starter2"
               width={500}
               height={500}
               className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
             />
             <img
-              src="https://vz4cdq.bl.files.1drv.com/y4mBJ4bxMnEOM8T2jI-g0rhXAJpchHwczhifIumIRimKxP0yLcirgTChPsphneTk__048F4BEr3kH3Kyb7NwXWnnbASfddYXxsB5K3KgnTTfhL3yRpf94xcLa4A8hMFOrsUNQQEOu_AJUP3aUTphSO6Lj77weQtU5A2ZPNTdLaA32_LN5HJUeRMIFwPASw45zeAut7Phcyg4A0KxczJVioJhrQkmkLAmXBdscW7Lil2r7A"
+              src={sp3}
               alt="Starter3"
               width={500}
               height={500}
               className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
             />
             <img
-              src="https://vz4cdq.bl.files.1drv.com/y4myo3Ju83HV0PxBM4zOaIKQGn8usxLag2atN-q0inFmt6CP03PAAZJHiUUdemMRBG05a22fSq4t4IX2rrfn7mAJsFFIO7DevzApLvoJl-tLO1eggR1ND0xCDylfAbW1LLEgpr5RvmsGOREiwLPjnm82nu0oivNTXZy2TUTZ7fYRzUqVQIZ4SoJKbEAxuQFW6FCAXk-ZUyWToADW1YLtBjDrNiX-aDAelJ8-09G8XyZSRs"
+              src={sp4}
               alt="Starter4"
               width={500}
               height={500}
@@ -142,14 +164,14 @@ export function TimelineDemo() {
           </ul>
           <div className="grid grid-cols-2 gap-4">
             <img
-              src="https://wt63gq.bl.files.1drv.com/y4mXI6XNcu-v2r7yGJ8cAD9SuhBaZuLnxGvKOtZc1fOyMgyg2T-PIG4fDWVNJFAw5hgSOzdbuvL1v11BiIgqCwUtMxp54O_VpCKVJ_9XRSlp3ehOrUL81B71k24CGA7GJML04DZzagNNnyXAUvg_QbhC5ubZEt-ViX463INo5P1OqpHqFYA9ePPrRHMD6zm9psCscldxraTPKwzEGQCy5zx6ycvqdwC1bp4sCfUc0DJnc0"
+              src={ca1}
               alt="COA1"
               width={200}
               height={200}
               className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
             />
             <img
-              src="https://wd63gq.bl.files.1drv.com/y4mcUkRcdh1w0raPZawwbPYcpFEa-wptAiPhrrAzUzaoYet9P-H11wFX1aE_mTLliy8H4hWiz76va70m5-B53XLvLpIBCInqQ4wDv2-gZkoth2J09ZxYevyN1ydMvPp3s1ZJtuIkksqYAw5yu_aOmOXdZ4gG6u9fYkdeojDZuZKiNuEav0DVf1gJGRRZcv1JxsyTI_CrY7DM8cxk_mjjQfzqdDyHl8_EEtAQyfKZBkWriU"
+              src={ca2}
               alt="COA2"
               width={500}
               height={500}
@@ -183,28 +205,28 @@ export function TimelineDemo() {
           </ul>
           <div className="grid grid-cols-2 gap-4">
             <img
-              src="https://vz4cdq.bl.files.1drv.com/y4m33clPgQv1d-ocodj3zk-o5AIY2PdFgCrvrXI9uDJf2odR5Ky5j-RQiuJDDZJ3EcedU_gezUVbGkYLyciMoYF8TLLF4tUPzqjLca7cz9_f50r_kqMXRkVXybHgzMKE9TNAcD0Qb00Iac6Sci3GcT7w5yQ9E2JZPAIBLNtQ29s4ogiblg997LgcTlV_sN2nCEHvzXmSgjGb0d1IZj21S9oo6qg3DDWf-bxsVEl92sODR0"
+              src={hw1}
               alt="GameDev1"
               width={500}
               height={500}
               className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
             />
             <img
-              src="https://vz4cdq.bl.files.1drv.com/y4mrxRKCefoY5yrNO-l6gSrgUsJwWqTXc-V2YWDbUSDV9VCsrjDJeryJmeoQ4ghIbQgXGUc2gyd0vdwfGMQiRQp_5qKFwHQcoz-SHsi7GfiGIAtmD-K9L4ywWJBQbRP8FPuPQqhDE6UXk42RELdGngAZl5OWZEkK06fWqMRvx90oVLMNH85y8PGbhczIpnudBfljzHF1tbTF_Lo5XVp7FOtpQJFi6XOqUbE2-9MclHYd4E"
+              src={hw2}
               alt="GameDev2"
               width={500}
               height={500}
               className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
             />
             <img
-              src="https://vz4cdq.bl.files.1drv.com/y4mjlF28MD1vmI9RaH3JCOGyKCiUb-uJasyUztzwOF4PO8OuazT7dC2wCi0xLxX52HlPvvQ9Yvz6uZyliLP4BqHsR6Klr5IOfTfvHe56xo14MXNUEnN0JzmIp6hGWRxHN3zUaOeoyi8OlxGpEk_ysGJqVVnqgwqvH-ApnM1dioA5x4X_cnJJoyzSM38fo7PkwVwm5_4wmPvSUPs6SKvj2yhwCdPi634ehUrNPRMO95JqJE"
+              src={hw3}
               alt="GameDev3"
               width={500}
               height={500}
               className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
             />
             <img
-              src="https://vz4cdq.bl.files.1drv.com/y4m7cLAAwIcm54UbiFRGd6wO1WtXMEtw4VWZV9PGkW_Qw1oyzIUG0hWLSLl-CIwp1-A6UcsnL1aisQWhSsZwuPKaFx7Vt6nQL9RIBszYgP3Pd03SeX6lZ1LJ9A3b5nWnUhg6UVdw6wxn9oYJRNwGtxJohp3DYHkdsYBJ4TfCfX9oORgxVPuOeHplWNLmskd2Gh48ghMhjgfIFn5POgkSHbF5uN8_wP9KX2nVNmfzRbJ8UE"
+              src={hw4}
               alt="GameDev4"
               width={500}
               height={500}
@@ -218,7 +240,7 @@ export function TimelineDemo() {
       title: 'Dec2023 - Present',
       content: (
         <div className="flex w-full text-center justify-center content-center items-center h-full text-neutral-200 text-2xl font-normal mb-8">
-          CONTINUE IMPROVING MYSELF
+          "CONTINUE IMPROVING MYSELF"
         </div>
       ),
     },

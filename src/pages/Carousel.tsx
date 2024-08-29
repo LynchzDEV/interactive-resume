@@ -4,6 +4,13 @@ import {
   Card,
 } from '@/components/ui/aceternity/apple-cards-carousel';
 
+// * AmongDuck Images
+import adBanner from '@/assets/images/ProjectBanner/AmongDuck/adBanner.png'; //* Banner Image
+import adFigma from '@/assets/images/ProjectBanner/AmongDuck/adFigma.png'; //* Figma Design
+
+// * Kanban Board Images
+import kbBanner from '@/assets/images/ProjectBanner/KanbanBoard/kbBanner.png'; //* Banner Image
+
 export function AppleCardsCarouselDemo() {
   const cards = data.map((card, index) => (
     <Card
@@ -77,7 +84,7 @@ const AmongDucks = () => {
           className=" max-w-fit md:w-3/4 md:h-3/4"
         >
           <img
-            src="https://zd4cdq.bl.files.1drv.com/y4muqGiZi436kAlSLoQtMzeI2BqvaUAWCUGRyQxdXpgqU662rXJ8ujZwcy9BYjGoR4Yc1uhEX7y2NpiyizZBGACZtKhAR4vhZAqduAafcjUPodF9kelqK3R5oa6xlua3n51k8ERdYZwIMKQx1aQr13kjhVpC4r_ms0ByrsnBoFE1cjjrgRoTA5h8Dzdlp6P79MZttV-zxja4sHMmk20YdT67GZqe-BA2Bn2-s5oRPXAEG0"
+            src={adFigma}
             alt="Among Duck Figma Design"
             height="500"
             width="500"
@@ -128,7 +135,7 @@ const data = [
   {
     category: 'SIT Hello World’s 2D platformer game',
     title: 'Among Ducks',
-    src: 'https://vj4cdq.bl.files.1drv.com/y4m9MHlHai2ON0H-DTVilWRU0kB_m2FfT75ZK92FjBpVhM8exLGLNtChvCUsQdODdK29IlUCWVe63_EBEq210zNswPWU4SRmxc8tCFgKdTwy2YgDKTw3fSNTe_ROaAXSO6xdNZZE7N7Q0Qs-jAalVJvnC2h9MeXvLQMhtasRCSneWOt0h0ZiDy3j9bDmvqOc2elA-wlFnHTfsVMpLTJVxomDXvMFJnLkcNlENkH8vfmziw',
+    src: adBanner,
     // ****************************** GIF IS WORKING!!!!!!! ****************************** //
     // src: 'https://i.pinimg.com/originals/3a/7b/da/3a7bda163b42122cec8497e44ce3f9dd.gif',
     // ****************************** GIF IS WORKING!!!!!!! ****************************** //
@@ -137,7 +144,7 @@ const data = [
   {
     category: 'SIT’s junior project',
     title: 'Kanban Board',
-    src: 'https://vz4cdq.bl.files.1drv.com/y4mSCtvuuhpyiPumCdelMlunOAwDMzaC0o6M9qWJz7KDpQIfNeQxoBVsEWEp2h9wjKKLDeaFogXHrJ_mFPq2DYQDNpdrpVUuH6_7KYvtOOGlGpfdEThEeWLPeqBO7ulLS3OCOR0bCC73wDWG59gmVkDGbtcyWZJAjaVshhY10LkL1zkbLV6IuhttWF5ceh2FJ2xQuSFXbcEV0Hd3rTSwrRKJbVdTei5yTZULrSOHtbNIG8',
+    src: kbBanner,
     content: <DummyContent />,
   },
   {

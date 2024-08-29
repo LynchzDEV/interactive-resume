@@ -1,28 +1,61 @@
 'use client';
 import { BackgroundBeams } from '@/components/ui/aceternity/background-beams';
+import { CompareDemo } from '@/pages/Compare.tsx';
+
+const spliter = (text: string) => {
+  return text.split(', ').map((word, index) => (
+    <div
+      key={index}
+      className=" bg-slate-400 py-1 px-2 rounded-full w-fit text-nowrap"
+    >
+      {word}
+    </div>
+  ));
+};
 
 export function BackgroundBeamsDemo() {
   return (
-    <div className="h-[40rem] w-full bg-[#18181B] relative flex flex-col items-center justify-center antialiased">
-      <div className="max-w-2xl mx-auto p-4">
-        <h1 className="relative z-10 text-lg md:text-7xl  bg-clip-text text-transparent bg-gradient-to-b from-neutral-200 to-neutral-600  text-center font-sans font-bold">
-          Join the waitlist
-        </h1>
-        <p></p>
-        <p className="text-neutral-500 max-w-lg mx-auto my-2 text-sm text-center relative z-10">
-          Welcome to MailJet, the best transactional email service on the web.
-          We provide reliable, scalable, and customizable email solutions for
-          your business. Whether you&apos;re sending order confirmations,
-          password reset emails, or promotional campaigns, MailJet has got you
-          covered.
-        </p>
-        <input
-          type="text"
-          placeholder="hi@manuarora.in"
-          className="rounded-lg border border-neutral-800 focus:ring-2 focus:ring-teal-500  w-full relative z-10 mt-4  bg-neutral-950 placeholder:text-neutral-700"
-        />
+    <div className="h-full w-full bg-[#18181B] relative flex flex-col items-center justify-center antialiased">
+      <div className="flex text-white text-4xl relative flex-col sm:flex-row text-center">
+        <div className="relative bg-clip-text text-transparent bg-no-repeat bg-gradient-to-r from-purple-500 via-violet-500 to-pink-500 py-4">
+          <span className="font-bold "> Full-stack wizard,</span>
+        </div>
+        <span className="py-4 font-normal">
+          &nbsp; blending frontend finesse with backend power{' '}
+        </span>
       </div>
-      <BackgroundBeams />
+      <div className="text-white w-full h-full flex justify-center p-8 items-center gap-4 flex-col-reverse sm:flex-row sm ">
+        <div className="flex flex-col justify-center content-start h-full w-full sm:w-[25%]">
+          <h3 className="font-semibold text-2xl text-[rgb(66,208,255)]">
+            Tools
+          </h3>
+          <p className="break-before-auto">
+            Virtual Studio Code, InteliJ, Git, Github, GitLens, Bash, Postman,
+            Cypress
+          </p>
+          <h3 className="font-semibold text-2xl text-[#42d0ff] pt-8">
+            Languages &<br /> Frameworks
+          </h3>
+          <p className="break-before-auto">
+            Virtual Studio Code, InteliJ, Git, Github, GitLens, Bash, Postman,
+            Cypress
+          </p>
+          <h3 className="font-semibold text-2xl text-[#42d0ff] pt-8">
+            Soft Skills
+          </h3>
+          <div className="flex flex-wrap gap-2">
+            {' '}
+            {spliter(
+              'Fast Learner, Critical Thinker, Flexibility, Emotional Intelligence, Leadership, Self Management, Communication'
+            )}
+          </div>
+        </div>
+        <CompareDemo />
+      </div>
+      <div className='hidden sm:block '>
+        {' '}
+        <BackgroundBeams />
+      </div>
     </div>
   );
 }
