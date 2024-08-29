@@ -1,6 +1,6 @@
 import { Compare } from '@/components/ui/aceternity/compare';
 
-import tsFront from '@/assets/images/Compare/tsfront.png';
+import tsFront from '@/assets/images/Compare/tsFront.png';
 import javaBack from '@/assets/images/Compare/javaBack.png';
 
 // const isMobile = window.innerWidth < 768;

@@ -3,7 +3,6 @@ import { SparklesCore } from '@/components/ui/aceternity/sparkles';
 import { AnimatePresence, motion } from 'framer-motion';
 import { cn } from '@/utils/libs/cn';
 import { IconDotsVertical } from '@tabler/icons-react';
-
 interface CompareProps {
   firstImage?: string;
   secondImage?: string;
