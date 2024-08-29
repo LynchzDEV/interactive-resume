@@ -1,3 +1,4 @@
+/* eslint-disable react-refresh/only-export-components */
 'use client';
 import { BrowserRouter as Router } from 'react-router-dom';
 import { HeroParallax } from '../components/ui/aceternity/hero-parallax';
