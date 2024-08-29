@@ -13,13 +13,13 @@ export function BackgroundBeamsWithCollisionDemo() {
       <div className="flex text-white text-4xl relative flex-col sm:flex-row text-center">
         <span className="py-4 font-normal">CONTACT ME</span>
       </div>
-      <div className="text-white w-full h-full flex p-8 items-start flex-col content-center gap-4 sm:flex-row sm text-xl">
+      <div className="text-white w-full h-full flex p-8 flex-col item-center content-center justify-center gap-4 sm:flex-row sm text-xl">
         <div className="flex items-center w-fit justify-center">
           <img
             src="https://www.eekmuttservice.com/resources/images/KMUTT.png"
-            className="w-[25%] h-[25%]"
+            className="w-[25%] h-auto sm:w-[15%] sm:h-auto "
           />
-          <div className="flex flex-col max-w-[60%] w-fit pl-8">
+          <div className="flex flex-col w-full pl-8 mt-4">
             {' '}
             <span className="font-semibold">
               King Mongkut's University of Technology Thonburi <br />
@@ -27,7 +27,7 @@ export function BackgroundBeamsWithCollisionDemo() {
             <span className="font-thin">B.Sc.Information Technology </span>
           </div>
         </div>
-        <div className="flex w-full justify-center px-8 sm:border-l-2 sm:justify-start pl-20 sm:pl-0 pt-4 sm:pt-0">
+        <div className="flex w-fit justify-start sm:pl-4 px-8 sm:border-l-2 sm:justify-center pl-20 pt-4 sm:pt-0">
           <div className="flex-col h-full">
             <a
               href="https://github.com/LynchzDEV"
