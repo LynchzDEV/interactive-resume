@@ -21,7 +21,7 @@ export function BackgroundBeamsDemo() {
           <span className="font-bold "> Full-stack wizard,</span>
         </div>
         <span className="py-4 font-normal">
-          &nbsp; blending frontend finesse with backend power{' '}
+          &nbsp; blending frontend finesse with backend power
         </span>
       </div>
       <div className="text-white w-full h-full flex justify-center p-8 items-center gap-4 flex-col-reverse sm:flex-row sm ">
@@ -34,11 +34,16 @@ export function BackgroundBeamsDemo() {
             Cypress
           </p>
           <h3 className="font-semibold text-2xl text-[#42d0ff] pt-8">
-            Languages &<br /> Frameworks
+            Languages
           </h3>
           <p className="break-before-auto">
-            Virtual Studio Code, InteliJ, Git, Github, GitLens, Bash, Postman,
-            Cypress
+            TypeScript, JavaScript, Java, SQL, HTML/CSS, C#, Python
+          </p>
+          <h3 className="font-semibold text-2xl text-[#42d0ff] pt-8">
+            Frameworks
+          </h3>
+          <p className="break-before-auto">
+            Vue, React, Spring Boot, Tailwind CSS, NodeJS, Express, NestJS
           </p>
           <h3 className="font-semibold text-2xl text-[#42d0ff] pt-8">
             Soft Skills
@@ -52,7 +57,7 @@ export function BackgroundBeamsDemo() {
         </div>
         <CompareDemo />
       </div>
-      <div className='hidden sm:block '>
+      <div className="hidden sm:block ">
         {' '}
         <BackgroundBeams />
       </div>

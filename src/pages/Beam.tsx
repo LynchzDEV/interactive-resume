@@ -1,53 +1,72 @@
 import { BackgroundBeamsWithCollision } from '@/components/ui/aceternity/background-beams-with-collision';
-import { CompareDemo } from '@/pages/Compare.tsx';
-
-const spliter = (text: string) => {
-  return text.split(', ').map((word, index) => (
-    <div
-      key={index}
-      className=" bg-slate-400 py-1 px-2 rounded-full w-fit text-nowrap"
-    >
-      {word}
-    </div>
-  ));
-};
+import {
+  IconBrandGithub,
+  IconPhone,
+  IconMail,
+  IconMapPin,
+  IconBrandLinkedin,
+} from '@tabler/icons-react';
 
 export function BackgroundBeamsWithCollisionDemo() {
   return (
-    <BackgroundBeamsWithCollision className="h-full flex flex-col pb-4">
-      <div className="flex text-white text-4xl relative  flex-col sm:flex-row text-center">
-        <div className="relative bg-clip-text text-transparent bg-no-repeat bg-gradient-to-r from-purple-500 via-violet-500 to-pink-500 py-4">
-          <span className="font-bold "> Full-stack wizard,</span>
-        </div>
-        <span className="py-4 font-normal">
-          &nbsp; blending frontend finesse with backend power{' '}
-        </span>
+    <BackgroundBeamsWithCollision className="flex flex-col pb-4 h-full">
+      <div className="flex text-white text-4xl relative flex-col sm:flex-row text-center">
+        <span className="py-4 font-normal">CONTACT ME</span>
       </div>
-      <div className="text-white w-full h-full flex justify-center p-8 items-center gap-4 flex-col sm:flex-row sm">
-        <div className="flex flex-col justify-center content-start h-full w-full sm:w-[25%]">
-          <h3 className="font-semibold text-2xl text-[#42d0ff]">Tools</h3>
-          <p className="break-before-auto">
-            Virtual Studio Code, InteliJ, Git, Github, GitLens, Bash, Postman,
-            Cypress
-          </p>
-          <h3 className="font-semibold text-2xl text-[#42d0ff] pt-8">
-            Languages &<br /> Frameworks
-          </h3>
-          <p className="break-before-auto">
-            Virtual Studio Code, InteliJ, Git, Github, GitLens, Bash, Postman,
-            Cypress
-          </p>
-          <h3 className="font-semibold text-2xl text-[#42d0ff] pt-8">
-            Soft Skills
-          </h3>
-          <div className="flex flex-wrap gap-2">
+      <div className="text-white w-full h-full flex p-8 items-start flex-col content-center gap-4 sm:flex-row sm text-xl">
+        <div className="flex items-center w-fit justify-center">
+          <img
+            src="https://www.eekmuttservice.com/resources/images/KMUTT.png"
+            className="w-[25%] h-[25%]"
+          />
+          <div className="flex flex-col max-w-[60%] w-fit pl-8">
             {' '}
-            {spliter(
-              'Fast Learner, Critical Thinker, Flexibility, Emotional Intelligence, Leadership, Self Management, Communication'
-            )}
+            <span className="font-semibold">
+              King Mongkut's University of Technology Thonburi <br />
+            </span>
+            <span className="font-thin">B.Sc.Information Technology </span>
           </div>
         </div>
-        <CompareDemo />
+        <div className="flex w-full justify-center px-8 sm:border-l-2 sm:justify-start pl-20 sm:pl-0 pt-4 sm:pt-0">
+          <div className="flex-col h-full">
+            <a
+              href="https://github.com/LynchzDEV"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <IconBrandGithub className="w-8 h-8" />
+            </a>
+            <a
+              href="www.linkedin.com/in/lynchzdev"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <IconBrandLinkedin className="w-8 h-8" />
+            </a>
+            <IconPhone className="w-8 h-8" />
+            <IconMail className="w-8 h-8" />
+            <IconMapPin className="w-8 h-8" />
+          </div>
+          <div className="px-4 font-semibold w-fit ">
+            <a
+              href="https://github.com/LynchzDEV"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <p className="underline h-8">LynchzDEV</p>
+            </a>
+            <a
+              href="https://www.linkedin.com/in/lynchzdev"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <p className="underline h-8">Jinnawat Vilairat</p>
+            </a>
+            <p className="h-8">089-6048001</p>
+            <p className="h-8">jinnawatvilai@gmail.com</p>
+            <p className="h-8">Bangkok, Thailand</p>
+          </div>
+        </div>
       </div>
     </BackgroundBeamsWithCollision>
   );

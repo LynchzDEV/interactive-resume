@@ -1,5 +1,11 @@
 import { FloatingNav } from '@/components/ui/aceternity/floating-navbar';
-import { IconHome, IconMessage, IconUser } from '@tabler/icons-react';
+import {
+  IconHome,
+  IconUser,
+  IconAlignJustified,
+  IconPresentationAnalytics,
+  IconCircleLetterV
+} from '@tabler/icons-react';
 import { animate } from 'framer-motion';
 
 export function FloatingNavDemo() {
@@ -7,30 +13,30 @@ export function FloatingNavDemo() {
     {
       name: 'Home',
       link: '#home',
-      icon: <IconHome className="h-4 w-4 text-neutral-500 dark:text-white" />,
+      icon: <IconHome className="h-6 w-6 text-white" />,
     },
     {
       name: 'About Me',
       link: '#about-me',
-      icon: <IconUser className="h-4 w-4 text-neutral-500 dark:text-white" />,
+      icon: <IconAlignJustified className="h-6 w-6 text-white" />,
     },
     {
       name: 'Projects',
       link: '#projects',
       icon: (
-        <IconMessage className="h-4 w-4 text-neutral-500 dark:text-white" />
+        <IconPresentationAnalytics className="h-6 w-6 text-white" />
       ),
     },
     {
-      name: 'Volunteer Experience', 
+      name: 'Volunteer Experience',
       link: '#volunteer-experience',
-      icon: <IconUser className="h-4 w-4 text-neutral-500 dark:text-white" />,
+      icon: <IconCircleLetterV className="h-6 w-6 text-white" />,
     },
     {
       name: 'Contact Me',
       link: '#contact-me',
       icon: (
-        <IconMessage className="h-4 w-4 text-neutral-500 dark:text-white" />
+        <IconUser className="h-6 w-6 text-white" />
       ),
     },
   ];
