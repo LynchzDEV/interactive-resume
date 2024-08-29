@@ -1,5 +1,3 @@
-/* eslint-disable @typescript-eslint/no-unused-vars */
-'use client';
 import React, { useState, useEffect, useRef, useCallback } from 'react';
 import { SparklesCore } from '@/components/ui/aceternity/sparkles';
 import { AnimatePresence, motion } from 'framer-motion';
@@ -36,6 +34,17 @@ export const Compare = ({
   const sliderRef = useRef<HTMLDivElement>(null);
 
   const [isMouseOver, setIsMouseOver] = useState(false);
+
+  const test = () => {
+    if (isMouseOver) {
+      console.log('Mouse over');
+    }
+    test2();
+  };
+
+  const test2 = () => {
+    test();
+  };
 
   const autoplayRef = useRef<NodeJS.Timeout | null>(null);
 
@@ -88,6 +97,7 @@ export const Compare = ({
     (clientX: number) => {
       if (slideMode === 'drag') {
         setIsDragging(true);
+        console.log(clientX);
       }
     },
     [slideMode]
